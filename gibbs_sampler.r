@@ -9,7 +9,7 @@
 # the value of the latent variable for our classification.
 
 # Reading the data
-spam<-read.csv("/home/pat-mellady/Desktop/Neat R Codes/spam.csv")
+spam<-read.csv("spam.csv")
 #spam<-spam[1:500,]
 n<-length(spam[,1])
 real<-rep(1,n)

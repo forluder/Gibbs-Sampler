@@ -9,7 +9,7 @@
 # the value of the latent variable for our classification.
 
 # Reading the data
-spam<-read.csv("spam.csv")
+spam<-read.csv("/home/pat-mellady/Desktop/Personal Projects/Neat R Codes/spam.csv")
 #spam<-spam[1:500,]
 n<-length(spam[,1])
 real<-rep(1,n)
@@ -135,8 +135,3 @@ for(i in 1:(m+1)){
 }
 
 plot(error_vec, xlab="Gibbs Sampler Iteration Numebr", ylab=" ", main="Error vs Iteration Number", type="l")
-
-
-
-
-
